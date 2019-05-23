@@ -23,9 +23,11 @@ Clone the repo, run `npm install` and then use one of the following commands:
 - `npm run build` to create a production build in the `/dist` folder
 - `npm run lint` to just check for JS style guide violations
 
-Lint problems will break builds
+Lint problems **will** break builds.
 
 ## Putting it on the web
+
+Just put the /dist folder on a web server.
 
 Comes with a `netlify.toml` file for fast CI/CD deployment to [Netlify](http://netlify.com).
 
