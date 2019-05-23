@@ -29,4 +29,4 @@ Lint problems will break builds
 
 Comes with a `netlify.toml` file for fast CI/CD deployment to [Netlify](http://netlify.com).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jhackett1/static-starter-kit)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jhackett1/lambeth-digital-vision)
