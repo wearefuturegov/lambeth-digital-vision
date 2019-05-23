@@ -1,6 +1,6 @@
-# Static web starter kit
+# Lambeth digital vision
 
-Jaye's personal starter kit for gulp/webpack-powered static web projects.
+Jaye's starter kit for gulp/webpack-powered static web projects.
 
 Includes:
 
