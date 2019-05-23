@@ -27,6 +27,7 @@ const runServer = () => {
 
 // Watch for HTML changes, then compile
 const watchHtml = () => {
+    compileHtml()
     watch("./src/*.html", compileHtml)
         .on("change", browserSync.reload)
 }
@@ -44,6 +45,7 @@ const compileHtml = () => {
 
 // Watch for sass changes, then compile
 const watchSass = () => {
+    compileSass()
     watch(["src/sass/*"], compileSass)
 }
 // Compile sass
@@ -75,6 +77,7 @@ const compressImages = () => {
 }
 // Watch images folder
 const watchImages = () => {
+    compressImages()
     watch(["./src/img/*"], compressImages)
         .on("change", browserSync.reload)
 }

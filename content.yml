@@ -1,1 +1,4 @@
 # YAML variables for nunjuck templating in here...
+
+siteTitle: Lambeth Digital Vision
+siteDescription: A new digital vision for Lambeth
