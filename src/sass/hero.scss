@@ -1,0 +1,23 @@
+.hero{
+    padding: 60px 0px;
+    background-color: $yellow;
+    color: $black;
+}
+
+.hero__logo{
+    margin-bottom: 35px;
+    width: 150px;
+}
+
+.hero__headline{
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 3em;
+    line-height: 1.2em;
+    text-transform: capitalize
+}
+
+.hero__slogan{
+    font-weight: bold;
+    font-size: 1.2em;
+}

@@ -15,7 +15,7 @@ sass.compiler = require("node-sass")
 const runServer = () => {
     browserSync.init({
         server: {
-            baseDir: "./dist"
+            baseDir: "dist"
         }
     })
 }
@@ -50,7 +50,7 @@ const watchSass = () => {
 }
 // Compile sass
 const compileSass = () => {
-    return src("./src/sass/main.sass")
+    return src("./src/sass/main.scss")
         .pipe(sass({
             includePaths: ["node_modules"]
         }).on("error", sass.logError))

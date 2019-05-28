@@ -1,0 +1,16 @@
+@import '_vars';
+@import 'hero';
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Generic fixed-width container
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
