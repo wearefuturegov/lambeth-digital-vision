@@ -1,6 +1,5 @@
 @import '_vars';
-@import 'hero';
-    
+
 *{
     margin: 0;
     padding: 0;
@@ -14,3 +13,17 @@
     margin: 0 auto;
     padding: 0px 20px;
 }
+
+.curvy{
+    height: 10px;
+    background-image: url('/img/curvy-line.svg');
+    background-size: contain;
+    background-repeat: repeat-x;
+    border: none;
+    width: 100%;
+}
+
+@import 'hero';
+@import 'list';
+@import 'quote';
+@import 'message';
