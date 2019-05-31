@@ -42,10 +42,13 @@
 }
 
 .list__item{
+    display: block;
+    text-decoration: none;
     background: $yellow;
     margin-bottom: 15px;
     padding: 10px;
     font-size: 0.95em;
+    color: $black;
     &.list__item--with-number{
         display: flex;
         flex-direction: row;
