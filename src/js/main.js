@@ -8,4 +8,4 @@ $(document).ready(function(){
         .slick({dots:true})
 })
 
-ScrollReveal().reveal('.list__item')
+ScrollReveal().reveal(".list__item")
