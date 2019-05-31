@@ -1,6 +1,8 @@
 # Lambeth digital vision
 
-Jaye's starter kit for gulp/webpack-powered static web projects.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39104665-bb65-4bad-8c90-5bbf2cddd788/deploy-status)](https://app.netlify.com/sites/lambeth-digital-vision/deploys)
+
+Gulp/webpack-powered static website.
 
 Includes:
 
@@ -30,5 +32,3 @@ Lint problems **will** break builds.
 Just put the /dist folder on a web server.
 
 Comes with a `netlify.toml` file for fast CI/CD deployment to [Netlify](http://netlify.com).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jhackett1/lambeth-digital-vision)
