@@ -1,14 +1,8 @@
 .quote{
-    padding: 40px 20px;
+    padding: 80px 20px;
     background: $grey;
     position: relative;
     z-index: -1;
-    @media screen and (min-width: 600px){
-        padding: 60px 0px;
-    }
-    @media screen and (min-width: 1000px){
-        padding: 80px 20px;
-    }
 }
 
 .quote-box{
