@@ -1,0 +1,37 @@
+.boxes{
+    padding: 80px 20px;
+    background: $grey;
+    text-align: center;
+}
+
+.boxes__headline{
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.boxes__list{
+    list-style: none;
+    @media screen and (min-width: 600px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+    @media screen and (min-width: 1000px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+}
+
+.boxes__box{
+    background: white;
+    border: 3px solid $black;
+    margin: 0px auto;
+    padding: 15px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.1em;
+    position: relative;
+    margin-bottom: 15px;
+}
