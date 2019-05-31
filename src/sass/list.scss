@@ -50,6 +50,11 @@
         display: flex;
         flex-direction: row;
     }
+    &.list__item--with-fixed-columns{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        grid-column-gap: 20px;
+    }
     @media screen and (min-width: 600px){
         font-size: 1.1em;
     }
@@ -59,4 +64,5 @@
     font-size: 2em;
     font-weight: bold;
     margin-right: 20px;
+    line-height: 1em;
 }

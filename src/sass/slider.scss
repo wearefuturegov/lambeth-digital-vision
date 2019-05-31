@@ -1,0 +1,92 @@
+.slider{
+    padding: 50px 10px 30px 10px;
+    background: $grey;
+    @media screen and (min-width: 600px){
+        padding: 60px 10px 40px 10px;
+    }
+    @media screen and (min-width: 1000px){
+        padding: 80px 10px 60px 10px;
+    }
+}
+
+.slider__quotes{
+    margin-top: 50px;
+    @media screen and (min-width: 600px){
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
+    }
+    @media screen and (min-width: 1000px){
+        margin-top: 80px;
+        grid-column-gap: 60px;
+    }
+}
+
+.slider__quote{
+    margin-bottom: 30px;
+    q{
+        display: block;
+        margin-top: 10px;
+        @media screen and (min-width: 600px){
+            margin-top: 15px;
+            font-size: 1.1em;
+        }
+        @media screen and (min-width: 1000px){
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    }
+}
+
+// Slick customisations
+.slider__carousel{
+    position: relative;
+}
+
+.slick-slide{
+    padding: 0px 10px;
+}
+
+.slick-arrow{
+    top: initial;
+    bottom: -35px;
+    z-index: 2;
+}
+.slick-prev{
+    left: 15px;
+}
+.slick-next{
+    right: 15px;
+}
+
+.slick-prev::before, .slick-next::before{
+    color: $black;
+    font-weight: bold;
+}
+
+.slick-dots{
+    position: relative;
+    width: initial;
+    margin: 0 auto;
+    z-index: 1;
+}
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background-color: $black;
+    border: 1px solid $black;
+    &.slick-active{
+        background-color: $yellow;
+    }
+    button{
+        height: 0;
+        width: 0;
+    }
+    button:before{
+        display: none;
+    }
+}
+

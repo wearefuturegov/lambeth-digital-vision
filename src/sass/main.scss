@@ -14,6 +14,7 @@
     padding: 0px 20px;
 }
 
+// A curvy line divider
 .curvy{
     height: 10px;
     background-image: url('/img/curvy-line.svg');
@@ -23,7 +24,13 @@
     width: 100%;
 }
 
+// Import slick styles
+@import 'slick-carousel/slick/slick.scss';
+@import 'slick-carousel/slick/slick-theme.scss';
+
 @import 'hero';
 @import 'list';
 @import 'quote';
 @import 'message';
+@import 'slider';
+@import 'footer';
