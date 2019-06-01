@@ -103,7 +103,40 @@
 
 
 .story-slider {
+    text-align: center;
+    font-size: 1.1em;
     .story-title {
         font-family: 'PT Sans', sans-serif;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .story-image {
+        display: inline-block;
+        background-size: contain;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        @media screen and (min-width: 600px){
+            width: 300px;
+            height: 300px;
+        }
+    }
+    .story-content {
+        width: 100%;
+        text-align: left;
+        @media screen and (min-width: 600px){
+            width: 50%;
+            display: inline-block;
+            margin-left: 30px;
+            vertical-align: middle;
+        }
+        p {
+            margin-bottom: 15px;
+            &:last-of-type {
+                margin-bottom: 0px;
+            }
+        }
     }
 }
