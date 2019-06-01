@@ -12,7 +12,7 @@
     padding: 15px;
     max-width: 600px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.15em;
     position: relative;
     &.quote-box--all-bold{
         text-transform: uppercase;
@@ -58,4 +58,5 @@
 .quote-box__headline{
     text-transform: uppercase;
     font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
 }
