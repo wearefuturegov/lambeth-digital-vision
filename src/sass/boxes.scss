@@ -24,6 +24,19 @@
     }
 }
 
+.boxes__text {
+    font-size: 1.1em;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 550px;
+    @media screen and (min-width: 600px){
+        font-size: 1.2em;
+    }
+    @media screen and (min-width: 1000px){
+        font-size: 1.3em;
+    }
+}
+
 .boxes__box{
     background: white;
     border: 3px solid $black;
