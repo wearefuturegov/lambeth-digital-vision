@@ -113,6 +113,7 @@ $(document).ready(function(){
           dots: true,
           focusOnSelect: true
         });
+
 })
 
 ScrollReveal().reveal(".list__item")

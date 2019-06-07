@@ -26,16 +26,26 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/hero-bg.png');
+    background-image: url('/img/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     z-index: 1;
     opacity: 0.25;
-    filter: grayscale(1) contrast(1.5);
+    filter: grayscale(1) contrast(1);
     animation: fadeIn 1s ease-out;
     &.hero__bg--sabrina{
-        background-image: url("/img/sabrina-bg.png");
-        filter: grayscale(1) contrast(0.6);
+        background-image: url("/img/sabrina-bg.jpg");
+        filter: grayscale(1) contrast(0.7);
+    }
+    &.hero__bg--reuben{
+        background-image: url("/img/reuben-bg.jpg");
+        filter: grayscale(1) contrast(0.7);
+        background-position-y: top;
+    }
+    &.hero__bg--vision{
+        background-image: url("/img/vision-bg.jpg");
+        filter: grayscale(1) contrast(0.7);
+        background-position-y: top;
     }
 }
 

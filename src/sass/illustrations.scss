@@ -1,0 +1,53 @@
+.sabrina_illustration_1 {
+  background-image: url('/img/sabrina_illustration_1.svg');
+}
+
+.sabrina_illustration_2 {
+  background-image: url('/img/sabrina_illustration_1.svg');
+}
+
+.sabrina_illustration_3 {
+  background-image: url('/img/sabrina_illustration_1.svg');
+}
+
+.sabrina_illustration_4 {
+  background-image: url('/img/sabrina_illustration_4.svg');
+}
+
+.sabrina_illustration_5 {
+  background-image: url('/img/sabrina_illustration_5.svg');
+}
+
+.sabrina_illustration_6 {
+  background-image: url('/img/sabrina_illustration_6.svg');
+}
+
+.reuben_illustration_1 {
+  background-image: url('/img/reuben_illustration_1.svg');
+}
+
+.reuben_illustration_2 {
+  background-image: url('/img/reuben_illustration_2.svg');
+}
+
+.reuben_illustration_3 {
+  background-image: url('/img/reuben_illustration_3.svg');
+}
+
+#sabrina_profile, #reuben_profile {
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  background-image: url('/img/sabrina_profile.svg');
+  @media screen and (min-width: 600px){
+      width: 250px;
+      height: 250px;
+  }
+}
+
+#reuben_profile {
+  background-image: url('/img/reuben_profile.svg');
+}
