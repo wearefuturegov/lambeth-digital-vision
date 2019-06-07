@@ -1,6 +1,6 @@
 {% extends "partials/_template.html" %}
 {% block content %}
-
+<div class="reuben_page">
     <section class="hero">
         <div class="hero__bg hero__bg--reuben"></div>
         <div class="container hero__inner">
@@ -314,22 +314,66 @@
 
 
 
-    <section class="message wide_message">
-        <hr class="curvy"/>
-        <h2 class="message__headline">What did we learn about the digital future of Lambeth services?</h2>
-        <p class="message__description"><strong>Services and solutions will be centred on strengthening relationships, community assests and networks:</strong> people will have increasingly interconnected relationships with each other and this will be reflected in support and services are delivered.</p>
+    <section class="slider white-slider">
+        <div class="message">
+            <hr class="curvy"/>
+            <h2 class="message__headline">What did we learn about the digital future of Lambeth services?</h2>
+        </div>
+        <div class="slider__carousel container" id="reuben_final_slider">
+            <div>
+                <blockquote class="quote-box quote-box--with-big-bottom-margin">
+                        <h3 class="quote-box__headline">Services and solutions will be centred on strengthening relationships, community assests and networks</h3>
+                        <p class="message__description">People will have increasingly interconnected relationships with each other and this will be reflected in support and services are delivered.</p>
+                </blockquote>
+                <blockquote class="quote-box quote-box--with-bottom-margin">
+                        <h3 class="quote-box__headline">Mobilising civic action & communities delivering services</h3>
+                        <p class="message__description">New opportunities for local residents to volunteer their skills and support. Local communities will play a crucial role in shaping and delivering services.</p>
+                </blockquote>
+            </div>
 
-        <p class="message__description"><strong>Increased collaboration and coordination:</strong> Local organisations will be working closely together, with shared outcomes, objectives and outreach; maximising their collective knowledge and impact. Lambeth with play a role of convening online and offline spaces for learning to be shared between organistations using their influence to create strategic opportunities for the sector.</p>
+            <div>
+                <blockquote class="quote-box quote-box--with-big-bottom-margin">
+                        <h3 class="quote-box__headline">A focus on 'good work'</h3>
+                        <p class="message__description"><p class="message__description">Business, local organisations and the council will focus on how people can pursue their aspirations and play to their strengths, enabling them to find employment that is right for them.</p>
+                </blockquote>
+                <blockquote class="quote-box quote-box--with-bottom-margin">
+                        <h3 class="quote-box__headline">Internal testing & learning</h3>
+                        <p class="message__description">Lambeth internal teams and departments will be using opportunities to test and learn about what works in supporting the community, using this knowledge to influence local businesses and organisations.</p>
+                </blockquote>
+            </div>
 
-        <p class="message__description"><strong>Place-based approaches:</strong> Services will be shaped based on characteristics of different localities, building on local assets and recognising the nuances between communities. There is no one-size fits all approach.</p>
+            <div>
+                <blockquote class="quote-box quote-box--with-big-bottom-margin">
+                        <h3 class="quote-box__headline">Increased collaboration and coordination</h3>
+                        <p class="message__description">Local organisations will be working closely together, with shared outcomes, objectives and outreach; maximising their collective knowledge and impact. Lambeth with play a role of convening online and offline spaces for learning to be shared between organistations using their influence to create strategic opportunities for the sector.</p>
+                </blockquote>
+                <blockquote class="quote-box quote-box--with-bottom-margin">
+                        <h3 class="quote-box__headline">Place-based approaches</h3>
+                        <p class="message__description">Services will be shaped based on characteristics of different localities, building on local assets and recognising the nuances between communities. There is no one-size fits all approach.</p>
+                </blockquote>
+            </div>
 
-        <p class="message__description"><strong>A focus on 'good work':</strong> Business, local organisations and the council will focus on how people can pursue their aspirations and play to their strengths, enabling them to find employment that is right for them.</p>
-
-        <p class="message__description"><strong>Mobilising civic action & communities delivering services:</strong> new opportunities for local residents to volunteer their skills and support. Local communities will also place a crucial role shaping and delivering services.</p>
-
-        <p class="message__description"><strong>Businesses working closely with communities and each other:</strong>  Businesses of all sizes will be active in their communities economic and social development, with a focus on developing initiatives for their exisiting employees to support the local community. Also business working more closely with other local businesses (big and small) to take a more joined up approach to corporate social responsibility.</p>
-
-        <p class="message__description"><strong>Internal testing & learning:</strong> Lambeth internal teams and departments will be using opportunities to test and learn about what works in supporting the community, using this knowledge to influence local businesses and organisations.</p>
+            <div>
+                <blockquote class="quote-box quote-box--with-big-bottom-margin">
+                        <h3 class="quote-box__headline">Businesses working closely with communities and each other</h3>
+                        <p class="message__description">Businesses of all sizes will be active in their communities economic and social development, with a focus on developing initiatives for their exisiting employees to support the local community. Also business working more closely with other local businesses (big and small) to take a more joined up approach to corporate social responsibility.</p>
+                </blockquote>
+            </div>
+        </div>
+        <div id="reuben_final_slider_nav" class="slider__carousel_nav">
+            <div>
+                <button>Citizens</button>
+            </div>
+            <div>
+                <button>Council</button>
+            </div>
+            <div>
+                <button>Community</button>
+            </div>
+            <div>
+                <button>Business</button>
+            </div>
+        </div>
     </section>
 
     <section class="list container">
@@ -341,7 +385,7 @@
             <a href="/sabrina.html" class="list__item">
                 <div id="sabrina_profile" class="small_profile"></div>
                 <h3 class="list__subtitle">Sabrina</h3>
-                <p>Follow Sabrina as she navigates her time moving to, and thriving in Lambeth. See how a consistent companion service could look and feel in the future.</p>
+                <p>Follow Sabrina as she navigates her time moving to, and thriving in Lambeth. </p>
             </a>
             <a href="/deliveringourvision.html" class="list__item">
                 <h3 class="list__subtitle">Delivering our vision</h3>
@@ -349,4 +393,5 @@
             </a>
         </ul>
     </section>
+</div>
 {% endblock %}

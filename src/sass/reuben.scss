@@ -1,0 +1,34 @@
+.reuben_illustration_1 {
+  background-image: url('/img/reuben_illustration_1.svg');
+}
+
+.reuben_illustration_2 {
+  background-image: url('/img/reuben_illustration_2.svg');
+}
+
+.reuben_illustration_3 {
+  background-image: url('/img/reuben_illustration_3.svg');
+}
+
+#reuben_profile {
+  background-image: url('/img/reuben_profile.svg');
+}
+
+.reuben_page {
+  .hero, .list__item, .slider__carousel_nav .slick-current button {
+    background: $blue;
+  }
+  .slider__carousel_nav .slick-current button {
+    border: 3px solid $blue;
+  }
+}
+
+
+.delivervision {
+  .hero, .list__item, .slider__carousel_nav .slick-current button {
+    background: $green;
+  }
+  .slider__carousel_nav .slick-current button {
+    border: 3px solid $green;
+  }
+}

@@ -12,10 +12,29 @@ $(document).ready(function(){
     //     })
     $("#home_slider")
         .slick({
+          dots: true,
+          arrows: true,
+          infinite: true
+        })
+
+
+    $("#reuben_final_slider")
+        .slick({
           dots:false,
           arrows: false,
-          infinite: false
+          infinite: false,
+          asNavFor: "#reuben_final_slider_nav",
+          adaptiveHeight: true
         })
+    $("#reuben_final_slider_nav")
+        .slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: "#reuben_final_slider",
+          dots: true,
+          focusOnSelect: true
+        })
+
 
     $("#slider1")
         .slick({

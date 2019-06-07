@@ -38,4 +38,17 @@
 @import 'slider';
 @import 'boxes';
 @import 'footer';
-@import 'illustrations';
+@import 'sabrina';
+@import 'reuben';
+
+.blue {
+    background: $blue;
+}
+
+.yellow {
+    background: $yellow !important;
+}
+
+.green {
+    background: $green !important;
+}
