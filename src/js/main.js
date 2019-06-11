@@ -4,6 +4,7 @@ import "slick-carousel"
 import ScrollReveal from "scrollreveal"
 
 $(document).ready(function(){
+  ScrollReveal().reveal(".list__item")
     // $(".slider__carousel")
     //     .slick({
     //       dots:false,
@@ -134,5 +135,3 @@ $(document).ready(function(){
         })
 
 })
-
-ScrollReveal().reveal(".list__item")
